@@ -1,0 +1,1 @@
+var apiUrl = 60847a1ec9175abe97b3d9d6e8784457 api.openweathermap.org/data/2.5/weather?q=dublin&appid=60847a1ec9175abe97b3d9d6e8784457
