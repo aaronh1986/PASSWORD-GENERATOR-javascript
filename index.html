@@ -4,24 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+    <title>MEMORY BLOCKS javascript</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="input-fields">
-            <h1>Weather App</h1>
-            <input id="place" placeholder="Location / Zip" type="text">
-            <button type="submit" onclick="getWeatherInfo()" >Submit</button>
-            <div id="errorMessage"></div>
-            <div id="weatherInfo" class="card" style="display: none;"></div>
-            <div><strong class="city"></strong></div>
-            <div class="temperature">
-                <img src="" />
-                <span style="padding-left: 20px;"></span>
-            </div>
-            <table cellspacing="0" width="100%"></table>
-        </div>
-    </div>
+    <label>Game Difficulty</label>
+    <input type="number" id="difficulty" value="4">
+    <label>(Allowed Values: 2, 4, 6, 8, 10)</label>
+    <button onclick="startGame()">Start Game</button>
+    <div id="gameContainer"></div>
 
 
 
@@ -29,6 +20,9 @@
 
 
 
-<script src="script.js"></script>
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
